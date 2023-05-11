@@ -1,0 +1,6 @@
+﻿  Offset.cxx
+     Creating library F:\project class\Project1\x64\Debug\Project1.lib and object F:\project class\Project1\x64\Debug\Project1.exp
+Offset.obj : error LNK2019: unresolved external symbol "public: __cdecl STEPControl_Writer::STEPControl_Writer(void)" (??0STEPControl_Writer@@QEAA@XZ) referenced in function "public: void __cdecl Offset::OffsetShape(void)" (?OffsetShape@Offset@@QEAAXXZ)
+Offset.obj : error LNK2019: unresolved external symbol "public: enum IFSelect_ReturnStatus __cdecl STEPControl_Writer::Transfer(class TopoDS_Shape const &,enum STEPControl_StepModelType,bool,class Message_ProgressRange const &)" (?Transfer@STEPControl_Writer@@QEAA?AW4IFSelect_ReturnStatus@@AEBVTopoDS_Shape@@W4STEPControl_StepModelType@@_NAEBVMessage_ProgressRange@@@Z) referenced in function "public: void __cdecl Offset::OffsetShape(void)" (?OffsetShape@Offset@@QEAAXXZ)
+Offset.obj : error LNK2019: unresolved external symbol "public: enum IFSelect_ReturnStatus __cdecl STEPControl_Writer::Write(char const * const)" (?Write@STEPControl_Writer@@QEAA?AW4IFSelect_ReturnStatus@@QEBD@Z) referenced in function "public: void __cdecl Offset::OffsetShape(void)" (?OffsetShape@Offset@@QEAAXXZ)
+F:\project class\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 3 unresolved externals

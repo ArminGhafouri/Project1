@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{4696b9b2-3fdb-4dae-8bc4-d173fe841e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Point">
+      <UniqueIdentifier>{a96c4fd9-ffc6-403d-9d32-3ddf8b9336e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Point\Pt2d">
+      <UniqueIdentifier>{781fe3e3-4df8-404e-95e4-9c88ad82b28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape">
+      <UniqueIdentifier>{06acf0e4-3752-40d4-84d2-6c56821baadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Circle">
+      <UniqueIdentifier>{bb5c0730-59cf-42ce-b7ce-597325e89a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Rectangle">
+      <UniqueIdentifier>{9d76f43a-38bf-4843-aec6-8ee6124fa374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Triangle">
+      <UniqueIdentifier>{5be8be08-a0d4-43b1-adff-96c88c3e85ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Vector">
+      <UniqueIdentifier>{8c880f26-7f87-4b6e-b51b-b2bbcde27cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Vector\Vec2d">
+      <UniqueIdentifier>{d5cdd9cb-4a08-42dc-ac8e-9015deb8bc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Vector\Vec3d">
+      <UniqueIdentifier>{10caa081-c322-41ef-b906-adbfe078bb0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Square">
+      <UniqueIdentifier>{237a5da8-8934-4fdc-a1d6-9f97f991624d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Naca2412">
+      <UniqueIdentifier>{1dfcbede-3e95-4250-bb35-5b199a5fb081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Ellips">
+      <UniqueIdentifier>{1ba1c3eb-4fd5-4c30-b7cb-5d14be663892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Curve">
+      <UniqueIdentifier>{b8a519c8-6dd1-4b86-be66-bb03995cba2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Point\Pt3d">
+      <UniqueIdentifier>{917ad2ef-cee6-4792-9973-cddf8d6b98be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Mesh">
+      <UniqueIdentifier>{f51b763f-21bb-460d-b636-507fcd6ca429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Tools">
+      <UniqueIdentifier>{297bb834-a2c8-4a50-b315-47961bd884ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Sphere">
+      <UniqueIdentifier>{6602acaf-c155-40d2-b5ee-3d79d0d85562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Revolve">
+      <UniqueIdentifier>{4f89de50-3c37-4a11-8657-04776619d7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Model">
+      <UniqueIdentifier>{eeb45841-4a68-4c62-bdbd-549fd71d30ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Pyramid">
+      <UniqueIdentifier>{b07ee82b-d8fa-420e-8364-5293d3271086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\TruncatedPyramid">
+      <UniqueIdentifier>{a0fe14f2-a1fb-48eb-a154-156de93dd7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Box">
+      <UniqueIdentifier>{f8cf8876-60bc-4b00-bf9e-c750a032d6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\TruncatedCone">
+      <UniqueIdentifier>{2ad4a6a7-2544-46b7-a8ab-9569fe896aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Cone">
+      <UniqueIdentifier>{08ee2a05-dc5c-497b-9e28-b8f3f358e06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\Bottle">
+      <UniqueIdentifier>{80881475-be74-438a-b7aa-17078169a7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Shape\CubeAndSphere">
+      <UniqueIdentifier>{4386a3ad-2217-4ebc-ad06-d6eb11eee170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Test">
+      <UniqueIdentifier>{923db33f-156f-4506-960b-de80eb6f4bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\AirPlane">
+      <UniqueIdentifier>{4f563671-059c-46a1-bade-6d47c8bf031c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\AirPlaneTwo">
+      <UniqueIdentifier>{e68a8950-f368-4185-9f3f-a703b950cf54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Fillet">
+      <UniqueIdentifier>{7976dac7-2f70-4263-a89c-c667ffba9f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Chamfer">
+      <UniqueIdentifier>{a11a84f1-ed2d-432d-ab10-b8c5f6196e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Offset">
+      <UniqueIdentifier>{2604a413-c8dd-4463-8801-46882a1fae24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lib\Point\Pt2d\Pt2d.hxx">
+      <Filter>Lib\Point\Pt2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Vector\Vec2d\Vec2d.hxx">
+      <Filter>Lib\Vector\Vec2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Vector\Vec.hxx">
+      <Filter>Lib\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Vector\Vec3d\Vec3d.hxx">
+      <Filter>Lib\Vector\Vec3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Shape.hxx">
+      <Filter>Lib\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Circle\Circle.hxx">
+      <Filter>Lib\Shape\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Rectangle\Rectangle.hxx">
+      <Filter>Lib\Shape\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Square\Square.hxx">
+      <Filter>Lib\Shape\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Triangle\Triangle.hxx">
+      <Filter>Lib\Shape\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Naca2412\Naca2412.hxx">
+      <Filter>Lib\Shape\Naca2412</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Naca2412\Naca4Digits.hxx">
+      <Filter>Lib\Shape\Naca2412</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Ellips\Ellips.hxx">
+      <Filter>Lib\Shape\Ellips</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Curve\Curv3d\Curve3d.hxx">
+      <Filter>Lib\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Point\Pt3d\Pt3d.hxx">
+      <Filter>Lib\Point\Pt3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Box\Box.hxx">
+      <Filter>Lib\Shape\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Mesh\Mesh.hxx">
+      <Filter>Lib\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Sphere\Sphere.hxx">
+      <Filter>Lib\Shape\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Tools\Tools.hxx">
+      <Filter>Lib\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Revolve\Revolve2\Revolve.hxx">
+      <Filter>Lib\Revolve</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Model\Model.hxx">
+      <Filter>Lib\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Pyramid\Pyramid.hxx">
+      <Filter>Lib\Shape\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\TruncatedPyramid\TruncatedPyramid.hxx">
+      <Filter>Lib\Shape\TruncatedPyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\TruncatedCone\TruncatedCone.hxx">
+      <Filter>Lib\Shape\TruncatedCone</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Cone\ConeTwo.hxx">
+      <Filter>Lib\Shape\Cone</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\Bottle\Bottle.hxx">
+      <Filter>Lib\Shape\Bottle</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Shape\CubeAndSphere\CubeAndSphere.hxx">
+      <Filter>Lib\Shape\CubeAndSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Test\Test.hxx">
+      <Filter>Lib\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\AirPlane\AirPlane.hxx">
+      <Filter>Lib\AirPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\AirPlaneTwo\AirPlaneTwo.hxx">
+      <Filter>Lib\AirPlaneTwo</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Fillet\Fillet.hxx">
+      <Filter>Lib\Fillet</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Chamfer\Chamfer.hxx">
+      <Filter>Lib\Chamfer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Offset\Offset.hxx">
+      <Filter>Lib\Offset</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lib\Point\Pt2d\Pt2d.cxx">
+      <Filter>Lib\Point\Pt2d</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Vector\Vec2d\Vec2d.cxx">
+      <Filter>Lib\Vector\Vec2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Vector\vec.cxx">
+      <Filter>Lib\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Vector\Vec3d\Vec3d.cxx">
+      <Filter>Lib\Vector\Vec3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Circle\Circle.cxx">
+      <Filter>Lib\Shape\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Shape.cxx">
+      <Filter>Lib\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Rectangle\Rectangle.cxx">
+      <Filter>Lib\Shape\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Square\Square.cxx">
+      <Filter>Lib\Shape\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Triangle\Triangle.cxx">
+      <Filter>Lib\Shape\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Naca2412\Naca2412.cxx">
+      <Filter>Lib\Shape\Naca2412</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Naca2412\Naca4Digits.cxx">
+      <Filter>Lib\Shape\Naca2412</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Ellips\Ellips.cxx">
+      <Filter>Lib\Shape\Ellips</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Curve\Curv3d\Curve3d.cxx">
+      <Filter>Lib\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Point\Pt3d\Pt3d.cxx">
+      <Filter>Lib\Point\Pt3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Box\Box.cxx">
+      <Filter>Lib\Shape\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Mesh\Mesh.cxx">
+      <Filter>Lib\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Sphere\Sphere.cxx">
+      <Filter>Lib\Shape\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Tools\Tools.cxx">
+      <Filter>Lib\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Revolve\Revolve2\Revolve.cxx">
+      <Filter>Lib\Revolve</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Model\Model.cxx">
+      <Filter>Lib\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Pyramid\Pyramid.cxx">
+      <Filter>Lib\Shape\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\TruncatedPyramid\TruncatedPyramid.cxx">
+      <Filter>Lib\Shape\TruncatedPyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\TruncatedCone\TruncatedCone.cxx">
+      <Filter>Lib\Shape\TruncatedCone</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Cone\ConeTow.cxx">
+      <Filter>Lib\Shape\Cone</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\Bottle\Bottle.cxx">
+      <Filter>Lib\Shape\Bottle</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Shape\CubeAndSphere\CubeAndSphere.cxx">
+      <Filter>Lib\Shape\CubeAndSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Test\Test.cxx">
+      <Filter>Lib\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\AirPlane\AirPlane.cxx">
+      <Filter>Lib\AirPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\AirPlaneTwo\AirPlaneTwo.cxx">
+      <Filter>Lib\AirPlaneTwo</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Fillet\Fillet.cxx">
+      <Filter>Lib\Fillet</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Chamfer\Chamfer.cxx">
+      <Filter>Lib\Chamfer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Offset\Offset.cxx">
+      <Filter>Lib\Offset</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

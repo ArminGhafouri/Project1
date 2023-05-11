@@ -1,0 +1,6 @@
+VARIABLES = X Y
+ZONE T = Triangle
+10  30.2
+8.5  7.5
+22.1  5.9
+10  30.2

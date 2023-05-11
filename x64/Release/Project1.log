@@ -1,0 +1,4 @@
+﻿  Model.cxx
+     Creating library F:\project class\Project1\x64\Release\Project1.lib and object F:\project class\Project1\x64\Release\Project1.exp
+main.obj : error LNK2001: unresolved external symbol "public: void __cdecl Model::Plot(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?Plot@Model@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+F:\project class\Project1\x64\Release\Project1.exe : fatal error LNK1120: 1 unresolved externals
